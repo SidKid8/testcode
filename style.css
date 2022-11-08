@@ -91,7 +91,7 @@ body {
 }
 .cloud.two{
 	top: 25%;
-	position: absolute;
+	position: relative;
 	left: 0;
 	height: 200px;
 	width: 500px;
@@ -101,7 +101,7 @@ body {
 }
 .cloud.three{
 	top: 25%;
-	position: absolute;
+	position: relative;
 	left: 0;
 	height: 200px;
 	width: 500px;
@@ -111,7 +111,7 @@ body {
 }
 .cloud.four{
 	top: 25%;
-	position: absolute;
+	position: relative;
 	left: 0;
 	height: 200px;
 	width: 500px;
