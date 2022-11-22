@@ -30,6 +30,15 @@ body #wrap:after {
 body #wrap.plunge {
   pointer-events: none;
 }
+/* !Name */
+body #wrap.plunge input[type=email] {
+  color: transparent;
+}
+/* !Email */
+body #wrap.plunge input[type=email] {
+  color: transparent;
+}
+/* !Message */
 body #wrap.plunge input[type=email] {
   color: transparent;
 }
@@ -333,6 +342,34 @@ body #wrap form {
   display: inline-block;
   z-index: 2;
 }
+/* !Name */
+body #wrap form input[type=Name] {
+  max-height: 70px;
+  height: 70px;
+  width: calc(100% - 50px);
+  padding: 0 0 0 50px;
+  border-radius: 80px 0 0 80px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 900;
+}
+body #wrap form input[type=Name]::placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
+body #wrap form input[type=Name]::-moz-placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
+body #wrap form input[type=Name]:-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
+/* !Email */
 body #wrap form input[type=email] {
   max-height: 70px;
   height: 70px;
@@ -347,6 +384,10 @@ body #wrap form input[type=email] {
   font-size: 20px;
   font-weight: 900;
 }
+body #wrap form input[type=email]::placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
 body #wrap form input[type=email]::-moz-placeholder {
   color: #ccc;
   font-weight: 100;
@@ -355,10 +396,35 @@ body #wrap form input[type=email]:-ms-input-placeholder {
   color: #ccc;
   font-weight: 100;
 }
-body #wrap form input[type=email]::placeholder {
+/* !Message */
+body #wrap form input[type=text] {
+  max-height: 70px;
+  height: 70px;
+  width: calc(100% - 50px);
+  padding: 0 0 0 50px;
+  border-radius: 80px 0 0 80px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 900;
+}
+body #wrap form input[type=text]::placeholder {
   color: #ccc;
   font-weight: 100;
 }
+body #wrap form input[type=text]::-moz-placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
+body #wrap form input[type=text]:-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 100;
+}
+
+/* !Don't touch yet..... */
 body #wrap form .btnwrap {
   display: inline-block;
   width: auto;
